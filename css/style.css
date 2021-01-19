@@ -1,0 +1,40 @@
+* {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid skyblue;
+}
+
+.shooter {
+    background-color: antiquewhite;
+}
+
+.invader {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.boom {
+    background-color: crimson;
+}
+
+.laser {
+    background-color: orange;
+}
