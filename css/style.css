@@ -13,13 +13,13 @@
     border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    height: 700px;
+    width: 350px;
+    height: 350px;
 }
 
 .grid div {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border: 1px solid skyblue;
 }
 
