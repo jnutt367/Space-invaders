@@ -24,6 +24,7 @@ span {
 .grid {
     background-color: black;
     border: 5px solid green;
+    border-radius: 50%;
     margin-left: 150px;
     padding: 0;
     justify-content: center;
