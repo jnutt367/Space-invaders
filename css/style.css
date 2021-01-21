@@ -22,7 +22,8 @@ span {
 }
 
 .grid {
-    border: 2px solid silver;
+    background-color: black;
+    border: 5px solid green;
     margin-left: 150px;
     padding: 0;
     justify-content: center;
@@ -65,6 +66,8 @@ span {
 
 .laser {
     background-color: greenyellow;
+    position: relative;
+    z-index: 3870814;
 }
 
 .footer {
