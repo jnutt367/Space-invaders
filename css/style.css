@@ -14,13 +14,14 @@ h3 {
 }
 
 span {
-    color: red;
+    color: gold;
+    font-size: x-large;
 }
 
 .grid {
     padding: 0;
-    margin: 0;
-    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     width: 350px;
