@@ -19,6 +19,8 @@ span {
 }
 
 .grid {
+    border: 2px solid silver;
+    margin-left: 250px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -32,7 +34,7 @@ span {
 .grid div {
     width: 20px;
     height: 20px;
-    border: 1px solid skyblue;
+    border: 1px solid black;
 }
 
 .shooter {
@@ -40,7 +42,7 @@ span {
     background-image: url('../assets/shooter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-image: linear-gradient(#333, rgb(187, 49, 49), #555);*/
+    /*background-image: linear-gradient(#333, rgb(187, 49, 49), #555);   */
 }
 
 .invader {
@@ -53,9 +55,11 @@ span {
 }
 
 .boom {
-    background-color: crimson;
+    background-image: url('../assets/fire.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .laser {
-    background-color: orange;
+    background-color: greenyellow;
 }
