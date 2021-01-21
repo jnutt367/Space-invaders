@@ -9,8 +9,11 @@
 
 h1,
 h3 {
+    margin-top: 25px;
     color: whitesmoke;
     text-align: center;
+    padding-left: 50px;
+    padding-left: 50px;
 }
 
 span {
@@ -20,7 +23,7 @@ span {
 
 .grid {
     border: 2px solid silver;
-    margin-left: 250px;
+    margin-left: 150px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -62,4 +65,8 @@ span {
 
 .laser {
     background-color: greenyellow;
+}
+
+.footer {
+    margin-top: 200px;
 }
