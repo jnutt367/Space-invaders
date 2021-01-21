@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // Decide Game Over
         if (squares[currentShooterIndex].classList.contains('invader', 'shooter')) {
-            resultDisplay.textContent = 'You got hit...Game is Over....You Are DEAD!!'
+            resultDisplay.textContent = 'You are not a good pilot...Game is Over....You Are DEAD!!'
             squares[currentShooterIndex].classList.add('boom')
             clearInterval(invaderId)
         }
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // Decide a win
         if (alienInvadersTakenDown.length === alienInvaders.length) {
-            resultDisplay.textContent = 'YOU ARE A SPACE NERD!! YAAAS QUEEEN SLAY!'
+            resultDisplay.textContent = 'You Have SAVED the Earth! For NOW...'
             clearInterval(invaderId)
         }
     }
