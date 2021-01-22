@@ -43,7 +43,7 @@ span {
 }
 
 .shooter {
-    background-color: transparent;
+    background-color: black;
     background-image: url('../assets/shooter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ span {
 
 .invader {
     background-color: blueviolet;
-    background-image: url('../assets/alien.jpg');
+    background-image: url('../assets/download-5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
